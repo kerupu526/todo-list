@@ -13,8 +13,10 @@ This is a simple To-Do List application built using HTML, CSS, and JavaScript. I
 
 ## How to Use
 1. Clone the repository or download the source code.
-2. Open the `index.html` file in your web browser.
-3. Use the input field to add new tasks and click the "Add" button.
-4. Click on a task to edit it, and click the "Delete" button to remove it from the list.
-5. Click the checkbox next to a task to mark it as completed.
-6. Your tasks will be saved automatically in your browser's localStorage.
+2. Install the required dependencies using the `npm install` command.
+3. Start the development server using the `npm run dev` command.
+4. Click on the `Local: https://localhost:5173/` link that appears in VITE.
+5. Use the input field to add new tasks and click the "Add" button.
+6. Click on a task to edit it and click the "Delete" button to remove it from the list.
+7. Click the checkbox next to a task to mark it as completed.
+8. Tasks are automatically saved in the browser's localStorage.
