@@ -1,5 +1,4 @@
 # To-Do List App
----
 [한국어](README-ko.md) | [English](README.md)
 
 This is a simple To-Do List application built using HTML, CSS, and JavaScript. It allows users to add, edit, and delete tasks from their to-do list.
