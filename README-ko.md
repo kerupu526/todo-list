@@ -1,4 +1,6 @@
 # 할 일 목록 앱
+[한국어](README-ko.md) | [English](README.md)
+
 HTML, CSS 및 JavaScript를 사용하여 구현한 간단한 할 일 목록 애플리케이션입니다. 사용자가 할 일 목록에서 작업을 추가, 편집 및 삭제할 수 있습니다.
 
 ## 기능
