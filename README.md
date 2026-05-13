@@ -1,16 +1,21 @@
-# React + Vite
+# To-Do List App
+---
+[한국어](README-ko.md) | [English](README.md)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple To-Do List application built using HTML, CSS, and JavaScript. It allows users to add, edit, and delete tasks from their to-do list.
 
-Currently, two official plugins are available:
+## Features
+- Add new tasks to the list.
+- Edit existing tasks.
+- Delete tasks from the list.
+- Mark tasks as completed.
+- Responsive design for mobile and desktop devices.
+- Persistent storage using localStorage, so tasks are saved even after refreshing the page.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Use
+1. Clone the repository or download the source code.
+2. Open the `index.html` file in your web browser.
+3. Use the input field to add new tasks and click the "Add" button.
+4. Click on a task to edit it, and click the "Delete" button to remove it from the list.
+5. Click the checkbox next to a task to mark it as completed.
+6. Your tasks will be saved automatically in your browser's localStorage.

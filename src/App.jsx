@@ -70,7 +70,21 @@ const itemVariants = {
 
 function App() {
     const [input, setInput] = useState("");
-    const [todos, setTodos] = useState([]);
+
+    // ⭐ 1. 초기값 설정: 로컬 스토리지에 데이터가 있으면 불러오고, 없으면 빈 배열로 시작
+    const [todos, setTodos] = useState(() => {
+        const savedTodos = localStorage.getItem("my_todo_list");
+        if (savedTodos) {
+            return JSON.parse(savedTodos);
+        } else {
+            return [];
+        }
+    });
+
+    // ⭐ 2. 데이터 자동 저장: todos 배열이 바뀔 때마다 무조건 로컬 스토리지에 문자열로 덮어씌움
+    useEffect(() => {
+        localStorage.setItem("my_todo_list", JSON.stringify(todos));
+    }, [todos]);
 
     const [selectedIcon, setSelectedIcon] = useState(allIconsFlat[0].n);
     const [isIconPickerOpen, setIsIconPickerOpen] = useState(false);
